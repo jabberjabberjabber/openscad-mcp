@@ -222,48 +222,6 @@ openscad --version
 - Check write permissions in working directory
 - Ensure OpenSCAD can create temporary files
 
-## 🤝 Contributing
-
-We welcome contributions! Please feel free to:
-
-- 🐛 Report bugs via GitHub Issues
-- 💡 Suggest new features or improvements  
-- 🔧 Submit pull requests with enhancements
-- 📖 Improve documentation and examples
-- 🧪 Add test cases and validation
-
-### Development Setup
-
-```bash
-git clone https://github.com/yourusername/openscad-mcp-server.git
-cd openscad-mcp-server
-
-# Install dependencies
-pip install fastmcp
-
-# Run tests
-python -m pytest tests/
-
-# Start development server
-python openscad_mcp_server.py
-```
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [OpenSCAD](https://openscad.org/) - The powerful 3D modeling engine that makes this possible
-- [FastMCP](https://github.com/jlowin/fastmcp) - Simple and elegant MCP server framework
-- [Model Context Protocol](https://modelcontextprotocol.io/) - Enabling seamless AI tool integration
-
-## 🔗 Links
-
-- [OpenSCAD Documentation](https://openscad.org/documentation.html)
-- [MCP Specification](https://spec.modelcontextprotocol.io/)
-- [3D Printing Guide](https://www.printables.com/model/123456-getting-started-with-3d-printing)
-
----
-
-**Ready to turn your ideas into 3D reality? Start describing and start creating!** 🎯
