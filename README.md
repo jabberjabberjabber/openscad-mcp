@@ -198,30 +198,6 @@ Logs are written to `openscad_mcp.log` with detailed operation information:
 - Export operations and file sizes
 - Error conditions and recovery
 
-## 🐛 Troubleshooting
-
-### Common Issues
-
-**OpenSCAD not found:**
-```bash
-# Verify OpenSCAD is in PATH
-openscad --version
-```
-
-**Render timeout:**
-- Reduce model complexity
-- Decrease `$fn` value for faster rendering
-- Check for infinite loops in recursive modules
-
-**STL export fails:**
-- Ensure model is manifold (watertight)
-- Check for overlapping geometry
-- Verify valid OpenSCAD syntax
-
-**Permission errors:**
-- Check write permissions in working directory
-- Ensure OpenSCAD can create temporary files
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
