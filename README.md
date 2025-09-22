@@ -48,19 +48,33 @@ brew install openscad
 ```bash
 sudo apt-get install openscad
 ```
-
-### 2. Install Python Dependencies
-
-```bash
-pip install fastmcp
-```
-
-### 3. Clone and Run
+### 2. Clone and Run
 
 ```bash
 git clone https://github.com/yourusername/openscad-mcp-server.git
 cd openscad-mcp-server
-python openscad_mcp_server.py
+uv run --with fastmcp fastmcp dev main.py
+```
+### 3. Install
+
+**Add this to your client's MCP config:**
+```json
+  "mcpServers": {
+    "openscad-mcp": {
+      "command": "uv",
+      "args": [
+		"run",
+		"--with",
+		"fastmcp",
+		"fastmcp",
+		"run",
+        "c:/path/to/openscad-mcp/main.py"
+      ],
+      "env": {
+        "OPENSCAD_WORK_DIR": "c:/path/to/openscad-mcp/"
+      }
+    }
+    },
 ```
 
 ## 🎮 Usage
