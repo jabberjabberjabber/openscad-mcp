@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "openscad-mcp": {
+      "command": "uv",
+      "args": [
+		"run",
+		"--with",
+		"fastmcp",
+		"fastmcp",
+		"run",
+        "c:/path/to/openscad-mcp/main.py"
+      ],
+      "env": {
+        "OPENSCAD_WORK_DIR": "c:/path/to/openscad-mcp/"
+      }
+    }
+    },
+
+}

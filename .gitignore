@@ -1,0 +1,5 @@
+openscad_mcp.log
+/__pycache__
+scratchpad_state.json
+*.scad
+*.stl
