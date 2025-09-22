@@ -52,7 +52,7 @@ sudo apt-get install openscad
 
 ```bash
 git clone https://github.com/jabberjabberjabber/openscad-mcp
-cd openscad-mcp-server
+cd openscad-mcp
 uv run --with fastmcp fastmcp dev main.py
 ```
 ### 3. Install
